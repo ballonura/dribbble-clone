@@ -6,9 +6,14 @@
  */
 module.exports = {
   theme: {
+    container: {
+      padding: "20px",
+      center: true
+    },
     extend: {
       padding: {
-        9: "2.25rem"
+        9: "2.25rem",
+        18: "4.5rem"
       }
     },
     colors: {
@@ -19,6 +24,9 @@ module.exports = {
       "gray-300": "#333333",
       "gray-400": "#f3f3f4",
       "gray-500": "#9e9ea7",
+      "gray-600": "#fafafb",
+      "gray-700": "#0d0c22",
+      "gray-800": "#cccccc",
       "pink-100": "#ea4c89"
     }
   },
